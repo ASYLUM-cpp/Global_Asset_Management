@@ -1,0 +1,339 @@
+# ══════════════════════════════════════════════════════════════════════════════
+#  GAM — Global Asset Management System
+#  Docker Compose — All services per REQ-01
+#
+#  Usage:
+#    docker compose up -d          Start all services
+#    docker compose logs -f app    Follow app container logs
+#    docker compose down           Stop all services
+#    docker compose down -v        Stop + remove volumes (destructive)
+# ══════════════════════════════════════════════════════════════════════════════
+
+services:
+
+  # ── app: Laravel 12 + PHP 8.3-FPM + Nginx + CLI Tools ───────────────────
+  # REQ-01, REQ-02, REQ-03
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gam-app
+    restart: unless-stopped
+    ports:
+      - "${APP_PORT:-8000}:80"
+    volumes:
+      # ── Bind-mount: local source → container (auto-sync) ──
+      - .:/var/www/html
+      # ── Named volumes: persist writable data across restarts ──
+      - app-storage:/var/www/html/storage/app
+      - app-logs:/var/www/html/storage/logs
+      - app-bootstrap-cache:/var/www/html/bootstrap/cache
+      - app-framework-cache:/var/www/html/storage/framework
+    environment:
+      - APP_ENV=${APP_ENV:-production}
+      - APP_KEY=${APP_KEY}
+      - APP_DEBUG=${APP_DEBUG:-false}
+      - APP_URL=${APP_URL:-http://localhost:8000}
+      - DB_CONNECTION=mysql
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_DATABASE=${DB_DATABASE:-gam}
+      - DB_USERNAME=${DB_USERNAME:-gam}
+      - DB_PASSWORD=${DB_PASSWORD:-secret}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=${REDIS_PASSWORD:-null}
+      - CACHE_STORE=redis
+      - SESSION_DRIVER=redis
+      - QUEUE_CONNECTION=redis
+      - BROADCAST_CONNECTION=soketi
+      - MEILISEARCH_HOST=http://meilisearch:7700
+      - MEILISEARCH_KEY=${MEILISEARCH_KEY:-masterKey}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL:-https://openrouter.ai/api/v1}
+      - OPENAI_MODEL=${OPENAI_MODEL:-openai/gpt-4o-mini}
+      - OPENAI_REQUEST_TIMEOUT=${OPENAI_REQUEST_TIMEOUT:-120}
+      - BOOKSTACK_URL=http://bookstack:80
+      - BOOKSTACK_TOKEN_ID=${BOOKSTACK_TOKEN_ID:-}
+      - BOOKSTACK_TOKEN_SECRET=${BOOKSTACK_TOKEN_SECRET:-}
+      - TRILIUM_URL=http://trilium:8080
+      - TRILIUM_TOKEN=${TRILIUM_TOKEN:-}
+      - CKAN_URL=http://ckan:5000
+      - CKAN_API_KEY=${CKAN_API_KEY:-}
+      - SOKETI_HOST=soketi
+      - SOKETI_PORT=6001
+      - SOKETI_APP_ID=${SOKETI_APP_ID:-app-id}
+      - SOKETI_APP_KEY=${SOKETI_APP_KEY:-app-key}
+      - SOKETI_APP_SECRET=${SOKETI_APP_SECRET:-app-secret}
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - gam-network
+
+  # ── horizon: Laravel Horizon Queue Worker ────────────────────────────────
+  # REQ-31, REQ-32
+  horizon:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gam-horizon
+    restart: unless-stopped
+    entrypoint: ["php", "artisan", "horizon"]
+    volumes:
+      # ── Bind-mount: same source as app (auto-sync) ──
+      - .:/var/www/html
+      # ── Named volumes: share writable data with app ──
+      - app-storage:/var/www/html/storage/app
+      - app-logs:/var/www/html/storage/logs
+      - app-bootstrap-cache:/var/www/html/bootstrap/cache
+      - app-framework-cache:/var/www/html/storage/framework
+    environment:
+      - APP_ENV=${APP_ENV:-production}
+      - APP_KEY=${APP_KEY}
+      - DB_CONNECTION=mysql
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_DATABASE=${DB_DATABASE:-gam}
+      - DB_USERNAME=${DB_USERNAME:-gam}
+      - DB_PASSWORD=${DB_PASSWORD:-secret}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=${REDIS_PASSWORD:-null}
+      - CACHE_STORE=redis
+      - QUEUE_CONNECTION=redis
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - OPENAI_BASE_URL=${OPENAI_BASE_URL:-https://openrouter.ai/api/v1}
+      - OPENAI_MODEL=${OPENAI_MODEL:-openai/gpt-4o-mini}
+      - OPENAI_REQUEST_TIMEOUT=${OPENAI_REQUEST_TIMEOUT:-120}
+      - MEILISEARCH_HOST=http://meilisearch:7700
+      - MEILISEARCH_KEY=${MEILISEARCH_KEY:-masterKey}
+      - CKAN_URL=http://ckan:5000
+      - CKAN_API_KEY=${CKAN_API_KEY:-}
+    depends_on:
+      mysql:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - gam-network
+
+  # ── mysql: MySQL 8.0 — Primary Application Database ─────────────────────
+  # REQ-01
+  mysql:
+    image: mysql:8.0
+    container_name: gam-mysql
+    restart: unless-stopped
+    ports:
+      - "${MYSQL_PORT:-3306}:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-rootsecret}
+      MYSQL_DATABASE: ${DB_DATABASE:-gam}
+      MYSQL_USER: ${DB_USERNAME:-gam}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-secret}
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${DB_ROOT_PASSWORD:-rootsecret}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - gam-network
+
+  # ── redis: Redis 7 — Queue Driver + Cache Layer ─────────────────────────
+  # REQ-01, REQ-31, REQ-32
+  redis:
+    image: redis:7-alpine
+    container_name: gam-redis
+    restart: unless-stopped
+    ports:
+      - "${REDIS_PORT:-6379}:6379"
+    command: redis-server --appendonly yes
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - gam-network
+
+  # ── meilisearch: Meilisearch v1.6 — Full-Text Search Engine ─────────────
+  # REQ-22
+  meilisearch:
+    image: getmeili/meilisearch:v1.12
+    container_name: gam-meilisearch
+    restart: unless-stopped
+    ports:
+      - "${MEILISEARCH_PORT:-7700}:7700"
+    environment:
+      MEILI_MASTER_KEY: ${MEILISEARCH_KEY:-masterKey}
+      MEILI_ENV: development
+      MEILI_NO_ANALYTICS: "true"
+    volumes:
+      - meilisearch-data:/meili_data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7700/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    networks:
+      - gam-network
+
+  # ── bookstack: BookStack — Document Collaboration Layer ──────────────────
+  # REQ-24
+  bookstack:
+    image: lscr.io/linuxserver/bookstack:latest
+    container_name: gam-bookstack
+    restart: unless-stopped
+    ports:
+      - "${BOOKSTACK_PORT:-6875}:80"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - APP_KEY=${BOOKSTACK_APP_KEY:-base64:nfjT2dISRQeXRQ1cEjN5NswejbvRyAuJx7oRy4AmOGs=}
+      - APP_URL=${BOOKSTACK_APP_URL:-http://localhost:6875}
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_USER=${DB_USERNAME:-gam}
+      - DB_PASS=${DB_PASSWORD:-secret}
+      - DB_DATABASE=bookstack
+    volumes:
+      - bookstack-data:/config
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      - gam-network
+
+  # ── trilium: Trilium Notes — Knowledge Management Layer ──────────────────
+  # REQ-25
+  trilium:
+    image: zadam/trilium:latest
+    container_name: gam-trilium
+    restart: unless-stopped
+    ports:
+      - "${TRILIUM_PORT:-8081}:8080"
+    volumes:
+      - trilium-data:/home/node/trilium-data
+    networks:
+      - gam-network
+
+  # ── ckan_db: PostgreSQL 15 — CKAN Dedicated Sidecar ─────────────────────
+  # REQ-26
+  ckan_db:
+    image: postgres:15-alpine
+    container_name: gam-ckan-db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${CKAN_DB_NAME:-ckan}
+      POSTGRES_USER: ${CKAN_DB_USER:-ckan}
+      POSTGRES_PASSWORD: ${CKAN_DB_PASSWORD:-ckan_secret}
+    volumes:
+      - ckan-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${CKAN_DB_USER:-ckan}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - gam-network
+
+  # ── ckan: CKAN 2.10 — Dataset Catalog Layer ─────────────────────────────
+  # REQ-26
+  ckan:
+    build: ./docker/ckan
+    container_name: gam-ckan
+    restart: unless-stopped
+    ports:
+      - "${CKAN_PORT:-5000}:5000"
+    environment:
+      - CKAN_SQLALCHEMY_URL=postgresql://${CKAN_DB_USER:-ckan}:${CKAN_DB_PASSWORD:-ckan_secret}@ckan_db/${CKAN_DB_NAME:-ckan}
+      - CKAN_SITE_URL=${CKAN_SITE_URL:-http://localhost:5000}
+      - CKAN_SYSADMIN_NAME=${CKAN_ADMIN_USER:-admin}
+      - CKAN_SYSADMIN_PASSWORD=${CKAN_ADMIN_PASSWORD:-admin123}
+      - CKAN_SYSADMIN_EMAIL=${CKAN_ADMIN_EMAIL:-admin@gam.local}
+      - CKAN_SOLR_URL=http://ckan-solr:8983/solr/ckan
+      - CKAN_REDIS_URL=redis://redis:6379/1
+    volumes:
+      - ckan-storage:/var/lib/ckan
+    depends_on:
+      ckan_db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      ckan-solr:
+        condition: service_healthy
+    networks:
+      - gam-network
+
+  # ── ckan-solr: Apache Solr — CKAN search backend ────────────────────────
+  ckan-solr:
+    build: ./docker/ckan-solr
+    container_name: gam-ckan-solr
+    restart: unless-stopped
+    volumes:
+      - ckan-solr-data:/var/solr
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8983/solr/ckan/admin/ping"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+    networks:
+      - gam-network
+
+  # ── soketi: Self-Hosted WebSocket Server (Pusher-compatible) ─────────────
+  # REQ-29
+  soketi:
+    image: quay.io/soketi/soketi:1.6-16-debian
+    container_name: gam-soketi
+    restart: unless-stopped
+    ports:
+      - "${SOKETI_PORT:-6001}:6001"
+      - "9601:9601"
+    environment:
+      SOKETI_DEFAULT_APP_ID: ${SOKETI_APP_ID:-app-id}
+      SOKETI_DEFAULT_APP_KEY: ${SOKETI_APP_KEY:-app-key}
+      SOKETI_DEFAULT_APP_SECRET: ${SOKETI_APP_SECRET:-app-secret}
+      SOKETI_DEBUG: "1"
+    networks:
+      - gam-network
+
+# ── Volumes ────────────────────────────────────────────────────────────────
+volumes:
+  app-storage:
+    driver: local
+  app-logs:
+    driver: local
+  app-bootstrap-cache:
+    driver: local
+  app-framework-cache:
+    driver: local
+  mysql-data:
+    driver: local
+  redis-data:
+    driver: local
+  meilisearch-data:
+    driver: local
+  bookstack-data:
+    driver: local
+  trilium-data:
+    driver: local
+  ckan-db-data:
+    driver: local
+  ckan-storage:
+    driver: local
+  ckan-solr-data:
+    driver: local
+  backups:
+    driver: local
+
+# ── Network ────────────────────────────────────────────────────────────────
+networks:
+  gam-network:
+    driver: bridge

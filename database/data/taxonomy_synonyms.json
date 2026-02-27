@@ -1,0 +1,5672 @@
+[
+  {
+    "raw_term": "General Business",
+    "canonical_term": "(Gen) Business",
+    "group_hint": null,
+    "category": "Primary Group"
+  },
+  {
+    "raw_term": "Geo",
+    "canonical_term": "Location (Geo)",
+    "group_hint": null,
+    "category": "Primary Group"
+  },
+  {
+    "raw_term": "Nature",
+    "canonical_term": "Nature & Environment",
+    "group_hint": null,
+    "category": "Primary Group"
+  },
+  {
+    "raw_term": "Lifestyle / Leisure",
+    "canonical_term": "Lifestyle",
+    "group_hint": null,
+    "category": "Primary Group"
+  },
+  {
+    "raw_term": "Icons",
+    "canonical_term": "Specialty (Concepts / Icons / Infographics)",
+    "group_hint": null,
+    "category": "Primary Group"
+  },
+  {
+    "raw_term": "PNW",
+    "canonical_term": "Pacific Northwest",
+    "group_hint": "GEO",
+    "category": "Geo Region"
+  },
+  {
+    "raw_term": "Pac NW",
+    "canonical_term": "Pacific Northwest",
+    "group_hint": "GEO",
+    "category": "Geo Region"
+  },
+  {
+    "raw_term": "Mid Atlantic",
+    "canonical_term": "Mid-Atlantic",
+    "group_hint": "GEO",
+    "category": "Geo Region"
+  },
+  {
+    "raw_term": "Plains",
+    "canonical_term": "Great Plains",
+    "group_hint": "GEO",
+    "category": "Geo Region"
+  },
+  {
+    "raw_term": "Intermountain West",
+    "canonical_term": "Mountain West",
+    "group_hint": "GEO",
+    "category": "Geo Region"
+  },
+  {
+    "raw_term": "NYC",
+    "canonical_term": "New York City",
+    "group_hint": "GEO",
+    "category": "Geo Market"
+  },
+  {
+    "raw_term": "SF Bay",
+    "canonical_term": "San Francisco Bay Area",
+    "group_hint": "GEO",
+    "category": "Geo Market"
+  },
+  {
+    "raw_term": "Bay Area",
+    "canonical_term": "San Francisco Bay Area",
+    "group_hint": "GEO",
+    "category": "Geo Market"
+  },
+  {
+    "raw_term": "LA",
+    "canonical_term": "Los Angeles",
+    "group_hint": "GEO",
+    "category": "Geo Market"
+  },
+  {
+    "raw_term": "DFW",
+    "canonical_term": "Dallas–Fort Worth",
+    "group_hint": "GEO",
+    "category": "Geo Market"
+  },
+  {
+    "raw_term": "Twin Cities",
+    "canonical_term": "Minneapolis–St. Paul",
+    "group_hint": "GEO",
+    "category": "Geo Market"
+  },
+  {
+    "raw_term": "SLC",
+    "canonical_term": "Salt Lake City",
+    "group_hint": "GEO",
+    "category": "Geo Market"
+  },
+  {
+    "raw_term": "BTS",
+    "canonical_term": "Behind-the-scenes",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Flat lay",
+    "canonical_term": "Overhead / Flat-lay",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Macro",
+    "canonical_term": "Close-up / Macro",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "White bg",
+    "canonical_term": "Studio / White Background",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Veg",
+    "canonical_term": "Vegetables (general)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Veggies",
+    "canonical_term": "Vegetables (general)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Fruit",
+    "canonical_term": "Fruits (general)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Soda",
+    "canonical_term": "Soft drinks / soda",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Pop",
+    "canonical_term": "Soft drinks / soda",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Espresso",
+    "canonical_term": "Coffee",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "BTS",
+    "canonical_term": "Behind-the-scenes",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Master control",
+    "canonical_term": "Control Room",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "AutoCue",
+    "canonical_term": "Teleprompter",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "OTT",
+    "canonical_term": "Streaming / OTT",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "B roll",
+    "canonical_term": "B-roll",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "On-set",
+    "canonical_term": "On set",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Meeting room",
+    "canonical_term": "Meeting",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Presentation",
+    "canonical_term": "Presenting",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Office space",
+    "canonical_term": "Office",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Manufacturing plant",
+    "canonical_term": "Factory / Plant",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Robot",
+    "canonical_term": "Robotics",
+    "group_hint": null,
+    "category": "Gen Business Tech"
+  },
+  {
+    "raw_term": "Deck",
+    "canonical_term": "Presentation Deck",
+    "group_hint": null,
+    "category": "Deliverable Type"
+  },
+  {
+    "raw_term": "One-pager",
+    "canonical_term": "One Pager",
+    "group_hint": null,
+    "category": "Deliverable Type"
+  },
+  {
+    "raw_term": "Exec Summary",
+    "canonical_term": "Executive Summary",
+    "group_hint": null,
+    "category": "Deliverable Type"
+  },
+  {
+    "raw_term": "Spec",
+    "canonical_term": "Technical Spec",
+    "group_hint": null,
+    "category": "Deliverable Type"
+  },
+  {
+    "raw_term": "Readout",
+    "canonical_term": "Report",
+    "group_hint": null,
+    "category": "Deliverable Type"
+  },
+  {
+    "raw_term": "SOW",
+    "canonical_term": "Statement of Work",
+    "group_hint": null,
+    "category": "Agreement Type"
+  },
+  {
+    "raw_term": "MSA",
+    "canonical_term": "Master Services Agreement",
+    "group_hint": null,
+    "category": "Agreement Type"
+  },
+  {
+    "raw_term": "NDA",
+    "canonical_term": "Non-Disclosure Agreement",
+    "group_hint": null,
+    "category": "Agreement Type"
+  },
+  {
+    "raw_term": "PRD",
+    "canonical_term": "Product Requirements Document",
+    "group_hint": null,
+    "category": "Product Artifact"
+  },
+  {
+    "raw_term": "Journey map",
+    "canonical_term": "Customer Journey Map",
+    "group_hint": null,
+    "category": "Product Artifact"
+  },
+  {
+    "raw_term": "Wireframe",
+    "canonical_term": "Wireframes",
+    "group_hint": null,
+    "category": "Product Artifact"
+  },
+  {
+    "raw_term": "JPEG",
+    "canonical_term": "JPG",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "PPT",
+    "canonical_term": "PPTX",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "DOC",
+    "canonical_term": "DOCX",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "XLS",
+    "canonical_term": "XLSX",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Alabama",
+    "canonical_term": "AL",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Alabama",
+    "canonical_term": "AL",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Alaska",
+    "canonical_term": "AK",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Alaska",
+    "canonical_term": "AK",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Arizona",
+    "canonical_term": "AZ",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Arizona",
+    "canonical_term": "AZ",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Arkansas",
+    "canonical_term": "AR",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Arkansas",
+    "canonical_term": "AR",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "California",
+    "canonical_term": "CA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of California",
+    "canonical_term": "CA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Colorado",
+    "canonical_term": "CO",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Colorado",
+    "canonical_term": "CO",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Connecticut",
+    "canonical_term": "CT",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Connecticut",
+    "canonical_term": "CT",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Delaware",
+    "canonical_term": "DE",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Delaware",
+    "canonical_term": "DE",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "District of Columbia",
+    "canonical_term": "DC",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of District of Columbia",
+    "canonical_term": "DC",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Florida",
+    "canonical_term": "FL",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Florida",
+    "canonical_term": "FL",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Georgia",
+    "canonical_term": "GA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Georgia",
+    "canonical_term": "GA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Hawaii",
+    "canonical_term": "HI",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Hawaii",
+    "canonical_term": "HI",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Idaho",
+    "canonical_term": "ID",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Idaho",
+    "canonical_term": "ID",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Illinois",
+    "canonical_term": "IL",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Illinois",
+    "canonical_term": "IL",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Indiana",
+    "canonical_term": "IN",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Indiana",
+    "canonical_term": "IN",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Iowa",
+    "canonical_term": "IA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Iowa",
+    "canonical_term": "IA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Kansas",
+    "canonical_term": "KS",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Kansas",
+    "canonical_term": "KS",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Kentucky",
+    "canonical_term": "KY",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Kentucky",
+    "canonical_term": "KY",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Louisiana",
+    "canonical_term": "LA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Louisiana",
+    "canonical_term": "LA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Maine",
+    "canonical_term": "ME",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Maine",
+    "canonical_term": "ME",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Maryland",
+    "canonical_term": "MD",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Maryland",
+    "canonical_term": "MD",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Massachusetts",
+    "canonical_term": "MA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Massachusetts",
+    "canonical_term": "MA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Michigan",
+    "canonical_term": "MI",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Michigan",
+    "canonical_term": "MI",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Minnesota",
+    "canonical_term": "MN",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Minnesota",
+    "canonical_term": "MN",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Mississippi",
+    "canonical_term": "MS",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Mississippi",
+    "canonical_term": "MS",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Missouri",
+    "canonical_term": "MO",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Missouri",
+    "canonical_term": "MO",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Montana",
+    "canonical_term": "MT",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Montana",
+    "canonical_term": "MT",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Nebraska",
+    "canonical_term": "NE",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Nebraska",
+    "canonical_term": "NE",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Nevada",
+    "canonical_term": "NV",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Nevada",
+    "canonical_term": "NV",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "New Hampshire",
+    "canonical_term": "NH",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of New Hampshire",
+    "canonical_term": "NH",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "New Jersey",
+    "canonical_term": "NJ",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of New Jersey",
+    "canonical_term": "NJ",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "New Mexico",
+    "canonical_term": "NM",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of New Mexico",
+    "canonical_term": "NM",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "New York",
+    "canonical_term": "NY",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of New York",
+    "canonical_term": "NY",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "North Carolina",
+    "canonical_term": "NC",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of North Carolina",
+    "canonical_term": "NC",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "North Dakota",
+    "canonical_term": "ND",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of North Dakota",
+    "canonical_term": "ND",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Ohio",
+    "canonical_term": "OH",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Ohio",
+    "canonical_term": "OH",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Oklahoma",
+    "canonical_term": "OK",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Oklahoma",
+    "canonical_term": "OK",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Oregon",
+    "canonical_term": "OR",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Oregon",
+    "canonical_term": "OR",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Pennsylvania",
+    "canonical_term": "PA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Pennsylvania",
+    "canonical_term": "PA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Rhode Island",
+    "canonical_term": "RI",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Rhode Island",
+    "canonical_term": "RI",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "South Carolina",
+    "canonical_term": "SC",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of South Carolina",
+    "canonical_term": "SC",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "South Dakota",
+    "canonical_term": "SD",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of South Dakota",
+    "canonical_term": "SD",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Tennessee",
+    "canonical_term": "TN",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Tennessee",
+    "canonical_term": "TN",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Texas",
+    "canonical_term": "TX",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Texas",
+    "canonical_term": "TX",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Utah",
+    "canonical_term": "UT",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Utah",
+    "canonical_term": "UT",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Vermont",
+    "canonical_term": "VT",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Vermont",
+    "canonical_term": "VT",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Virginia",
+    "canonical_term": "VA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Virginia",
+    "canonical_term": "VA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Washington",
+    "canonical_term": "WA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Washington",
+    "canonical_term": "WA",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "West Virginia",
+    "canonical_term": "WV",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of West Virginia",
+    "canonical_term": "WV",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Wisconsin",
+    "canonical_term": "WI",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Wisconsin",
+    "canonical_term": "WI",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Wyoming",
+    "canonical_term": "WY",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "State of Wyoming",
+    "canonical_term": "WY",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Washington DC",
+    "canonical_term": "DC",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Washington, DC",
+    "canonical_term": "DC",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "Washington, D.C.",
+    "canonical_term": "DC",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "D.C.",
+    "canonical_term": "DC",
+    "group_hint": "GEO",
+    "category": "Geo State"
+  },
+  {
+    "raw_term": "TV",
+    "canonical_term": "TV/Broadcast",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Television",
+    "canonical_term": "TV/Broadcast",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Broadcast TV",
+    "canonical_term": "TV/Broadcast",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Broadcasting",
+    "canonical_term": "TV/Broadcast",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Broadcast",
+    "canonical_term": "TV/Broadcast",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "OTT",
+    "canonical_term": "Streaming",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Over-the-top",
+    "canonical_term": "Streaming",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "SVOD",
+    "canonical_term": "Streaming",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "AVOD",
+    "canonical_term": "Streaming",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "CTV",
+    "canonical_term": "Streaming",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Connected TV",
+    "canonical_term": "Streaming",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Digital",
+    "canonical_term": "Web/Digital",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Online",
+    "canonical_term": "Web/Digital",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Web",
+    "canonical_term": "Web/Digital",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Web Media",
+    "canonical_term": "Web/Digital",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Digital Media",
+    "canonical_term": "Web/Digital",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Social",
+    "canonical_term": "Social Media",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Social Networks",
+    "canonical_term": "Social Media",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "SM",
+    "canonical_term": "Social Media",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Social networking",
+    "canonical_term": "Social Media",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Podcasts",
+    "canonical_term": "Podcast",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Audio podcast",
+    "canonical_term": "Podcast",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Podcasting",
+    "canonical_term": "Podcast",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "AM radio",
+    "canonical_term": "Radio",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "FM radio",
+    "canonical_term": "Radio",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Radio broadcasting",
+    "canonical_term": "Radio",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Newspaper",
+    "canonical_term": "Print",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Newspapers",
+    "canonical_term": "Print",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Magazine",
+    "canonical_term": "Print",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Magazines",
+    "canonical_term": "Print",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "Print media",
+    "canonical_term": "Print",
+    "group_hint": "MEDIA",
+    "category": "Media"
+  },
+  {
+    "raw_term": "B roll",
+    "canonical_term": "B-roll",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "B‑roll",
+    "canonical_term": "B-roll",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Broll",
+    "canonical_term": "B-roll",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Remote Interview",
+    "canonical_term": "Remote interview",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Video call interview",
+    "canonical_term": "Remote interview",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Zoom interview",
+    "canonical_term": "Remote interview",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Teams interview",
+    "canonical_term": "Remote interview",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Press conf",
+    "canonical_term": "Press conference",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Press briefing",
+    "canonical_term": "Press conference",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Media briefing",
+    "canonical_term": "Press conference",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Behind the scenes",
+    "canonical_term": "Behind-the-scenes",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Screenshot",
+    "canonical_term": "Screenshot / UI",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "UI screenshot",
+    "canonical_term": "Screenshot / UI",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Screen capture",
+    "canonical_term": "Screenshot / UI",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Screencap",
+    "canonical_term": "Screenshot / UI",
+    "group_hint": null,
+    "category": "Visual Attribute"
+  },
+  {
+    "raw_term": "Supermarket",
+    "canonical_term": "Grocery Store",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Food market",
+    "canonical_term": "Grocery Store",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Grocery",
+    "canonical_term": "Grocery Store",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Grocery shop",
+    "canonical_term": "Grocery Store",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Grocery store",
+    "canonical_term": "Grocery Store",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Dining room",
+    "canonical_term": "Restaurant (front-of-house)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Restaurant dining",
+    "canonical_term": "Restaurant (front-of-house)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Front of house",
+    "canonical_term": "Restaurant (front-of-house)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "FOH",
+    "canonical_term": "Restaurant (front-of-house)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Back of house",
+    "canonical_term": "Kitchen (back-of-house)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "BOH",
+    "canonical_term": "Kitchen (back-of-house)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Commercial kitchen",
+    "canonical_term": "Kitchen (back-of-house)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Restaurant kitchen",
+    "canonical_term": "Kitchen (back-of-house)",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Food plant",
+    "canonical_term": "Factory / Plant",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Processing plant",
+    "canonical_term": "Factory / Plant",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Manufacturing plant",
+    "canonical_term": "Factory / Plant",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Production facility",
+    "canonical_term": "Factory / Plant",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Farm field",
+    "canonical_term": "Farm",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Farmland",
+    "canonical_term": "Farm",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Ranch",
+    "canonical_term": "Farm",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Orchard",
+    "canonical_term": "Farm",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Vineyard",
+    "canonical_term": "Farm",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Salad greens",
+    "canonical_term": "Leafy greens / salad greens",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Leafy greens",
+    "canonical_term": "Leafy greens / salad greens",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Greens",
+    "canonical_term": "Leafy greens / salad greens",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Soft drinks",
+    "canonical_term": "Soft drinks / soda",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Soft drink",
+    "canonical_term": "Soft drinks / soda",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Soda pop",
+    "canonical_term": "Soft drinks / soda",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Root veg",
+    "canonical_term": "Root vegetables / tubers",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Root veggies",
+    "canonical_term": "Root vegetables / tubers",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Tubers",
+    "canonical_term": "Root vegetables / tubers",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Onions",
+    "canonical_term": "Alliums",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Garlic",
+    "canonical_term": "Alliums",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Tomatoes",
+    "canonical_term": "Nightshades",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Peppers",
+    "canonical_term": "Nightshades",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Eggplant",
+    "canonical_term": "Nightshades",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Brassicas",
+    "canonical_term": "Cruciferous",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Ready meals",
+    "canonical_term": "Prepared Meals",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Meal prep",
+    "canonical_term": "Prepared Meals",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Prepared food",
+    "canonical_term": "Prepared Meals",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Snacks",
+    "canonical_term": "Snacks / Sweets",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Sweets",
+    "canonical_term": "Snacks / Sweets",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Candy",
+    "canonical_term": "Snacks / Sweets",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Confectionery",
+    "canonical_term": "Snacks / Sweets",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Sauces",
+    "canonical_term": "Condiments / Sauces",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Condiments",
+    "canonical_term": "Condiments / Sauces",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Dips",
+    "canonical_term": "Condiments / Sauces",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Spreads",
+    "canonical_term": "Condiments / Sauces",
+    "group_hint": "FOOD",
+    "category": "Food"
+  },
+  {
+    "raw_term": "Meeting",
+    "canonical_term": "Meeting",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Team meeting",
+    "canonical_term": "Meeting",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Standup",
+    "canonical_term": "Meeting",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Stand-up",
+    "canonical_term": "Meeting",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Stand up",
+    "canonical_term": "Meeting",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Sync",
+    "canonical_term": "Meeting",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Check-in",
+    "canonical_term": "Meeting",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Presentation",
+    "canonical_term": "Presentation",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Presenting",
+    "canonical_term": "Presentation",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Pitch",
+    "canonical_term": "Presentation",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Pitch deck",
+    "canonical_term": "Presentation",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Briefing",
+    "canonical_term": "Presentation",
+    "group_hint": null,
+    "category": "Gen Business Activity"
+  },
+  {
+    "raw_term": "Office",
+    "canonical_term": "Office",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Workplace",
+    "canonical_term": "Office",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Corporate office",
+    "canonical_term": "Office",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "HQ",
+    "canonical_term": "Office",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Headquarters",
+    "canonical_term": "Office",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Factory",
+    "canonical_term": "Factory",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Plant",
+    "canonical_term": "Factory",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Manufacturing",
+    "canonical_term": "Factory",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Manufacturing facility",
+    "canonical_term": "Factory",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Construction",
+    "canonical_term": "Construction site",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Job site",
+    "canonical_term": "Construction site",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Worksite",
+    "canonical_term": "Construction site",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Warehouse",
+    "canonical_term": "Warehouse",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Distribution center",
+    "canonical_term": "Warehouse",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "DC (warehouse)",
+    "canonical_term": "Warehouse",
+    "group_hint": null,
+    "category": "Gen Business Place"
+  },
+  {
+    "raw_term": "Robot",
+    "canonical_term": "Robot / automation",
+    "group_hint": null,
+    "category": "Gen Business Tech"
+  },
+  {
+    "raw_term": "Robotics",
+    "canonical_term": "Robot / automation",
+    "group_hint": null,
+    "category": "Gen Business Tech"
+  },
+  {
+    "raw_term": "Automation",
+    "canonical_term": "Robot / automation",
+    "group_hint": null,
+    "category": "Gen Business Tech"
+  },
+  {
+    "raw_term": "Automated system",
+    "canonical_term": "Robot / automation",
+    "group_hint": null,
+    "category": "Gen Business Tech"
+  },
+  {
+    "raw_term": "PRD",
+    "canonical_term": "Requirements / PRD",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Product requirements doc",
+    "canonical_term": "Requirements / PRD",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Product requirements",
+    "canonical_term": "Requirements / PRD",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Requirements doc",
+    "canonical_term": "Requirements / PRD",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "SOW",
+    "canonical_term": "Statement of Work",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Statement of work",
+    "canonical_term": "Statement of Work",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Scope of work",
+    "canonical_term": "Statement of Work",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "MSA",
+    "canonical_term": "Master Services Agreement",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Master services agreement",
+    "canonical_term": "Master Services Agreement",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "NDA",
+    "canonical_term": "Non-Disclosure Agreement",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Non disclosure agreement",
+    "canonical_term": "Non-Disclosure Agreement",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Confidentiality agreement",
+    "canonical_term": "Non-Disclosure Agreement",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "SOP",
+    "canonical_term": "Standard Operating Procedure",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Standard operating procedure",
+    "canonical_term": "Standard Operating Procedure",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "RFP",
+    "canonical_term": "Request for Proposal",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Request for proposal",
+    "canonical_term": "Request for Proposal",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "RFI",
+    "canonical_term": "Request for Information",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Request for information",
+    "canonical_term": "Request for Information",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "SLA",
+    "canonical_term": "Service Level Agreement",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Service level agreement",
+    "canonical_term": "Service Level Agreement",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Post mortem",
+    "canonical_term": "Postmortem",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Incident review",
+    "canonical_term": "Postmortem",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "RCA",
+    "canonical_term": "Postmortem",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Root cause analysis",
+    "canonical_term": "Postmortem",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Run book",
+    "canonical_term": "Runbook",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Playbook",
+    "canonical_term": "Runbook",
+    "group_hint": null,
+    "category": "File Type"
+  },
+  {
+    "raw_term": "New York, NY",
+    "canonical_term": "New York City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "New York City, NY",
+    "canonical_term": "New York City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "New York (NY)",
+    "canonical_term": "New York City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Big Apple",
+    "canonical_term": "New York City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "L.A.",
+    "canonical_term": "Los Angeles",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Los Angeles, CA",
+    "canonical_term": "Los Angeles",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Los Ángeles",
+    "canonical_term": "Los Angeles",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "City of Angels",
+    "canonical_term": "Los Angeles",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "CHI",
+    "canonical_term": "Chicago",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Chicago, IL",
+    "canonical_term": "Chicago",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Chitown",
+    "canonical_term": "Chicago",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Chi-Town",
+    "canonical_term": "Chicago",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "HOU",
+    "canonical_term": "Houston",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Houston, TX",
+    "canonical_term": "Houston",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Dallas Fort Worth",
+    "canonical_term": "Dallas–Fort Worth",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Dallas/Fort Worth",
+    "canonical_term": "Dallas–Fort Worth",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Metroplex",
+    "canonical_term": "Dallas–Fort Worth",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Dallas–Ft. Worth",
+    "canonical_term": "Dallas–Fort Worth",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Washington DC",
+    "canonical_term": "Washington, DC",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "D.C.",
+    "canonical_term": "Washington, DC",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "DC",
+    "canonical_term": "Washington, DC",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "District of Columbia",
+    "canonical_term": "Washington, DC",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "DMV",
+    "canonical_term": "Washington, DC",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Philly",
+    "canonical_term": "Philadelphia",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PHL",
+    "canonical_term": "Philadelphia",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Philadelphia, PA",
+    "canonical_term": "Philadelphia",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "MIA",
+    "canonical_term": "Miami",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Miami, FL",
+    "canonical_term": "Miami",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "ATL",
+    "canonical_term": "Atlanta",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Atlanta, GA",
+    "canonical_term": "Atlanta",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BOS",
+    "canonical_term": "Boston",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Boston, MA",
+    "canonical_term": "Boston",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Greater Boston",
+    "canonical_term": "Boston",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Francisco Bay",
+    "canonical_term": "San Francisco Bay Area",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "S.F. Bay Area",
+    "canonical_term": "San Francisco Bay Area",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "NorCal Bay Area",
+    "canonical_term": "San Francisco Bay Area",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SF",
+    "canonical_term": "San Francisco",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "S.F.",
+    "canonical_term": "San Francisco",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Francisco, CA",
+    "canonical_term": "San Francisco",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Frisco",
+    "canonical_term": "San Francisco",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SEA",
+    "canonical_term": "Seattle",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Seattle, WA",
+    "canonical_term": "Seattle",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PHX",
+    "canonical_term": "Phoenix",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Phoenix, AZ",
+    "canonical_term": "Phoenix",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "DET",
+    "canonical_term": "Detroit",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Detroit, MI",
+    "canonical_term": "Detroit",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Motor City",
+    "canonical_term": "Detroit",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "MSP",
+    "canonical_term": "Minneapolis–St. Paul",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Minneapolis Saint Paul",
+    "canonical_term": "Minneapolis–St. Paul",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Minneapolis–Saint Paul",
+    "canonical_term": "Minneapolis–St. Paul",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "DEN",
+    "canonical_term": "Denver",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Denver, CO",
+    "canonical_term": "Denver",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SD",
+    "canonical_term": "San Diego",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Diego, CA",
+    "canonical_term": "San Diego",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PDX",
+    "canonical_term": "Portland",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Portland, OR",
+    "canonical_term": "Portland",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Vegas",
+    "canonical_term": "Las Vegas",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "LAS",
+    "canonical_term": "Las Vegas",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Las Vegas, NV",
+    "canonical_term": "Las Vegas",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Sin City",
+    "canonical_term": "Las Vegas",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "NOLA",
+    "canonical_term": "New Orleans",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "New Orleans, LA",
+    "canonical_term": "New Orleans",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Salt Lake, UT",
+    "canonical_term": "Salt Lake City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Salt Lake City, UT",
+    "canonical_term": "Salt Lake City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "KC",
+    "canonical_term": "Kansas City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "KCMO",
+    "canonical_term": "Kansas City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Kansas City, MO",
+    "canonical_term": "Kansas City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Kansas City, KS",
+    "canonical_term": "Kansas City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "STL",
+    "canonical_term": "St. Louis",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Saint Louis",
+    "canonical_term": "St. Louis",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "St Louis",
+    "canonical_term": "St. Louis",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "St. Louis, MO",
+    "canonical_term": "St. Louis",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "CLE",
+    "canonical_term": "Cleveland",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Cleveland, OH",
+    "canonical_term": "Cleveland",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "CIN",
+    "canonical_term": "Cincinnati",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Cincinnati, OH",
+    "canonical_term": "Cincinnati",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "CMH",
+    "canonical_term": "Columbus",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Columbus, OH",
+    "canonical_term": "Columbus",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PIT",
+    "canonical_term": "Pittsburgh",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Pittsburgh, PA",
+    "canonical_term": "Pittsburgh",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BWI",
+    "canonical_term": "Baltimore",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Baltimore, MD",
+    "canonical_term": "Baltimore",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "CLT",
+    "canonical_term": "Charlotte",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Charlotte, NC",
+    "canonical_term": "Charlotte",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "RDU",
+    "canonical_term": "Raleigh–Durham",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Raleigh Durham",
+    "canonical_term": "Raleigh–Durham",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Research Triangle",
+    "canonical_term": "Raleigh–Durham",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Triangle",
+    "canonical_term": "Raleigh–Durham",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BNA",
+    "canonical_term": "Nashville",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Nashville, TN",
+    "canonical_term": "Nashville",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Music City",
+    "canonical_term": "Nashville",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "AUS",
+    "canonical_term": "Austin",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Austin, TX",
+    "canonical_term": "Austin",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SAT",
+    "canonical_term": "San Antonio",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Antonio, TX",
+    "canonical_term": "San Antonio",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "MCO",
+    "canonical_term": "Orlando",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Orlando, FL",
+    "canonical_term": "Orlando",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Tampa",
+    "canonical_term": "Tampa Bay",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "TPA",
+    "canonical_term": "Tampa Bay",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Tampa Bay Area",
+    "canonical_term": "Tampa Bay",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Tampa, FL",
+    "canonical_term": "Tampa Bay",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "JAX",
+    "canonical_term": "Jacksonville",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Jacksonville, FL",
+    "canonical_term": "Jacksonville",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Sac",
+    "canonical_term": "Sacramento",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SMF",
+    "canonical_term": "Sacramento",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Sacramento, CA",
+    "canonical_term": "Sacramento",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "MKE",
+    "canonical_term": "Milwaukee",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Milwaukee, WI",
+    "canonical_term": "Milwaukee",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "IND",
+    "canonical_term": "Indianapolis",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Indy",
+    "canonical_term": "Indianapolis",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Indianapolis, IN",
+    "canonical_term": "Indianapolis",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SDF",
+    "canonical_term": "Louisville",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Louisville, KY",
+    "canonical_term": "Louisville",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "MEM",
+    "canonical_term": "Memphis",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Memphis, TN",
+    "canonical_term": "Memphis",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "OKC",
+    "canonical_term": "Oklahoma City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Oklahoma City, OK",
+    "canonical_term": "Oklahoma City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "RIC",
+    "canonical_term": "Richmond",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Richmond, VA",
+    "canonical_term": "Richmond",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PVD",
+    "canonical_term": "Providence",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Providence, RI",
+    "canonical_term": "Providence",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BDL",
+    "canonical_term": "Hartford",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Hartford, CT",
+    "canonical_term": "Hartford",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Greater Hartford",
+    "canonical_term": "Hartford",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BUF",
+    "canonical_term": "Buffalo",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Buffalo, NY",
+    "canonical_term": "Buffalo",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "ROC",
+    "canonical_term": "Rochester",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Rochester, NY",
+    "canonical_term": "Rochester",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "ALB",
+    "canonical_term": "Albany",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Albany, NY",
+    "canonical_term": "Albany",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Capital Region",
+    "canonical_term": "Albany",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SJC",
+    "canonical_term": "San Jose",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Jose, CA",
+    "canonical_term": "San Jose",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "OAK",
+    "canonical_term": "Oakland",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Oakland, CA",
+    "canonical_term": "Oakland",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "East Bay",
+    "canonical_term": "Oakland",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "FAT",
+    "canonical_term": "Fresno",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Fresno, CA",
+    "canonical_term": "Fresno",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "HNL",
+    "canonical_term": "Honolulu",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Honolulu, HI",
+    "canonical_term": "Honolulu",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "ANC",
+    "canonical_term": "Anchorage",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Anchorage, AK",
+    "canonical_term": "Anchorage",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BOI",
+    "canonical_term": "Boise",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Boise, ID",
+    "canonical_term": "Boise",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BHM",
+    "canonical_term": "Birmingham",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Birmingham, AL",
+    "canonical_term": "Birmingham",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "EWR",
+    "canonical_term": "Newark",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Newark, NJ",
+    "canonical_term": "Newark",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Jersey City, NJ",
+    "canonical_term": "Jersey City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "JC, NJ",
+    "canonical_term": "Jersey City",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "LI",
+    "canonical_term": "Long Island",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Long Island, NY",
+    "canonical_term": "Long Island",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PBI",
+    "canonical_term": "West Palm Beach",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "West Palm, FL",
+    "canonical_term": "West Palm Beach",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "West Palm Beach, FL",
+    "canonical_term": "West Palm Beach",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "FLL",
+    "canonical_term": "Fort Lauderdale",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Ft. Lauderdale",
+    "canonical_term": "Fort Lauderdale",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Fort Lauderdale, FL",
+    "canonical_term": "Fort Lauderdale",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Inland Empire",
+    "canonical_term": "San Bernardino–Riverside",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Riverside–San Bernardino",
+    "canonical_term": "San Bernardino–Riverside",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Riverside, CA",
+    "canonical_term": "San Bernardino–Riverside",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Bernardino, CA",
+    "canonical_term": "San Bernardino–Riverside",
+    "group_hint": null,
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Grocer",
+    "canonical_term": "Grocery Store",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Super market",
+    "canonical_term": "Grocery Store",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Food store",
+    "canonical_term": "Grocery Store",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "C-store",
+    "canonical_term": "Convenience Store",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "C store",
+    "canonical_term": "Convenience Store",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Convenience shop",
+    "canonical_term": "Convenience Store",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Corner store",
+    "canonical_term": "Convenience Store",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Farmer's market",
+    "canonical_term": "Farmers Market",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Farmers' market",
+    "canonical_term": "Farmers Market",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Farm market",
+    "canonical_term": "Farmers Market",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Eatery",
+    "canonical_term": "Restaurant",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Dining establishment",
+    "canonical_term": "Restaurant",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Restaurant (FOH)",
+    "canonical_term": "Restaurant",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Front of house",
+    "canonical_term": "Restaurant",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Back of house",
+    "canonical_term": "Kitchen",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "BOH",
+    "canonical_term": "Kitchen",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Commercial kitchen",
+    "canonical_term": "Kitchen",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Restaurant kitchen",
+    "canonical_term": "Kitchen",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "QSR",
+    "canonical_term": "Quick Service Restaurant",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Fast food",
+    "canonical_term": "Quick Service Restaurant",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Quick-service restaurant",
+    "canonical_term": "Quick Service Restaurant",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Fast-casual",
+    "canonical_term": "Fast Casual",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Fast casual restaurant",
+    "canonical_term": "Fast Casual",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Foodtruck",
+    "canonical_term": "Food Truck",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Mobile kitchen",
+    "canonical_term": "Food Truck",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Food trailer",
+    "canonical_term": "Food Truck",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Take-out",
+    "canonical_term": "Takeout / Delivery",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Takeout",
+    "canonical_term": "Takeout / Delivery",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Delivery",
+    "canonical_term": "Takeout / Delivery",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Food delivery",
+    "canonical_term": "Takeout / Delivery",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "To-go",
+    "canonical_term": "Takeout / Delivery",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Fresh produce",
+    "canonical_term": "Produce",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Fruits and vegetables",
+    "canonical_term": "Produce",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Produce section",
+    "canonical_term": "Produce",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Salad greens",
+    "canonical_term": "Leafy Greens",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Leaf greens",
+    "canonical_term": "Leafy Greens",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Greens (leafy)",
+    "canonical_term": "Leafy Greens",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Roots",
+    "canonical_term": "Root Vegetables",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Root veg",
+    "canonical_term": "Root Vegetables",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Root veggies",
+    "canonical_term": "Root Vegetables",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Citrus fruit",
+    "canonical_term": "Citrus",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Citrus fruits",
+    "canonical_term": "Citrus",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Berry",
+    "canonical_term": "Berries",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Berries (assorted)",
+    "canonical_term": "Berries",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Stone fruits",
+    "canonical_term": "Stone Fruit",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Drupes",
+    "canonical_term": "Stone Fruit",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Brassicas",
+    "canonical_term": "Cruciferous Vegetables",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Cruciferous veg",
+    "canonical_term": "Cruciferous Vegetables",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Cruciferous veggies",
+    "canonical_term": "Cruciferous Vegetables",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Baked goods",
+    "canonical_term": "Bakery",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Bakeshop",
+    "canonical_term": "Bakery",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Loaf",
+    "canonical_term": "Bread",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Bread loaf",
+    "canonical_term": "Bread",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Artisan bread",
+    "canonical_term": "Bread",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Pastries",
+    "canonical_term": "Pastry",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Baked pastry",
+    "canonical_term": "Pastry",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Cafe coffee",
+    "canonical_term": "Coffee",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Coffee cup",
+    "canonical_term": "Coffee",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Iced tea",
+    "canonical_term": "Tea",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Hot tea",
+    "canonical_term": "Tea",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Soda",
+    "canonical_term": "Soft Drink",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Pop",
+    "canonical_term": "Soft Drink",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Soft drink",
+    "canonical_term": "Soft Drink",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Seltzer",
+    "canonical_term": "Sparkling Water",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Carbonated water",
+    "canonical_term": "Sparkling Water",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Club soda",
+    "canonical_term": "Sparkling Water",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Craft beer",
+    "canonical_term": "Beer",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Beer pint",
+    "canonical_term": "Beer",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Red wine",
+    "canonical_term": "Wine",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "White wine",
+    "canonical_term": "Wine",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Wine glass",
+    "canonical_term": "Wine",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Liquor",
+    "canonical_term": "Spirits",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Hard liquor",
+    "canonical_term": "Spirits",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Distilled spirits",
+    "canonical_term": "Spirits",
+    "group_hint": null,
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Controlroom",
+    "canonical_term": "Control Room",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "MCR",
+    "canonical_term": "Control Room",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Production control room",
+    "canonical_term": "Control Room",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "News room",
+    "canonical_term": "Newsroom",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Editorial desk",
+    "canonical_term": "Newsroom",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Assignment desk",
+    "canonical_term": "Newsroom",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Edit suite",
+    "canonical_term": "Editing Suite",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Edit bay",
+    "canonical_term": "Editing Suite",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Editing room",
+    "canonical_term": "Editing Suite",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Post-production suite",
+    "canonical_term": "Editing Suite",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Post production",
+    "canonical_term": "Editing Suite",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "TV studio",
+    "canonical_term": "Studio",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Broadcast studio",
+    "canonical_term": "Studio",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Production studio",
+    "canonical_term": "Studio",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Soundstage",
+    "canonical_term": "Studio",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Set",
+    "canonical_term": "Studio",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "On location reporting",
+    "canonical_term": "Field Reporting",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Remote reporting",
+    "canonical_term": "Field Reporting",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Live shot",
+    "canonical_term": "Field Reporting",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Standup",
+    "canonical_term": "Field Reporting",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Sit-down interview",
+    "canonical_term": "Interview",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "One-on-one",
+    "canonical_term": "Interview",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "1:1 interview",
+    "canonical_term": "Interview",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Presser",
+    "canonical_term": "Press Conference",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Backstage",
+    "canonical_term": "Behind-the-scenes",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Two-box",
+    "canonical_term": "Split-screen",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "2-box",
+    "canonical_term": "Split-screen",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Two-up",
+    "canonical_term": "Split-screen",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Cutaway footage",
+    "canonical_term": "B-roll",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Lower-third",
+    "canonical_term": "Lower Third",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Chyron",
+    "canonical_term": "Lower Third",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "CG lower third",
+    "canonical_term": "Lower Third",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Prompter",
+    "canonical_term": "Teleprompter",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Greenscreen",
+    "canonical_term": "Green Screen",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Chroma key",
+    "canonical_term": "Green Screen",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Chromakey",
+    "canonical_term": "Green Screen",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Live broadcast",
+    "canonical_term": "Live",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Live stream",
+    "canonical_term": "Live",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Live-stream",
+    "canonical_term": "Live",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "In-studio live",
+    "canonical_term": "Live",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Free ad-supported streaming TV",
+    "canonical_term": "FAST",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Free ad supported streaming TV",
+    "canonical_term": "FAST",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Subscription VOD",
+    "canonical_term": "SVOD",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Subscription video on demand",
+    "canonical_term": "SVOD",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Ad-supported VOD",
+    "canonical_term": "AVOD",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Ad supported video on demand",
+    "canonical_term": "AVOD",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Pod",
+    "canonical_term": "Podcast",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Audio show",
+    "canonical_term": "Podcast",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Mic",
+    "canonical_term": "Microphone",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Mics",
+    "canonical_term": "Microphone",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Studio mic",
+    "canonical_term": "Microphone",
+    "group_hint": null,
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Statement-of-Work",
+    "canonical_term": "Statement of Work",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Master service agreement",
+    "canonical_term": "Master Services Agreement",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Non-disclosure agreement",
+    "canonical_term": "Non-Disclosure Agreement",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Service-level agreement",
+    "canonical_term": "Service Level Agreement",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Standard ops procedure",
+    "canonical_term": "Standard Operating Procedure",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Request-for-proposal",
+    "canonical_term": "Request for Proposal",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Request-for-information",
+    "canonical_term": "Request for Information",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "KPI",
+    "canonical_term": "Key Performance Indicator",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "KPIs",
+    "canonical_term": "Key Performance Indicator",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "ROI",
+    "canonical_term": "Return on Investment",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "FAQ",
+    "canonical_term": "Frequently Asked Questions",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "FAQs",
+    "canonical_term": "Frequently Asked Questions",
+    "group_hint": null,
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "New York, NY",
+    "canonical_term": "New York City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "New York City, NY",
+    "canonical_term": "New York City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "New York (NY)",
+    "canonical_term": "New York City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Big Apple",
+    "canonical_term": "New York City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "L.A.",
+    "canonical_term": "Los Angeles",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Los Angeles, CA",
+    "canonical_term": "Los Angeles",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Los Ángeles",
+    "canonical_term": "Los Angeles",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "City of Angels",
+    "canonical_term": "Los Angeles",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "CHI",
+    "canonical_term": "Chicago",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Chicago, IL",
+    "canonical_term": "Chicago",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Chitown",
+    "canonical_term": "Chicago",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Chi-Town",
+    "canonical_term": "Chicago",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "HOU",
+    "canonical_term": "Houston",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Houston, TX",
+    "canonical_term": "Houston",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Dallas Fort Worth",
+    "canonical_term": "Dallas–Fort Worth",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Dallas/Fort Worth",
+    "canonical_term": "Dallas–Fort Worth",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Metroplex",
+    "canonical_term": "Dallas–Fort Worth",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Dallas–Ft. Worth",
+    "canonical_term": "Dallas–Fort Worth",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Washington DC",
+    "canonical_term": "Washington, DC",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "D.C.",
+    "canonical_term": "Washington, DC",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "DC",
+    "canonical_term": "Washington, DC",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "District of Columbia",
+    "canonical_term": "Washington, DC",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "DMV",
+    "canonical_term": "Washington, DC",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Philly",
+    "canonical_term": "Philadelphia",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PHL",
+    "canonical_term": "Philadelphia",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Philadelphia, PA",
+    "canonical_term": "Philadelphia",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "MIA",
+    "canonical_term": "Miami",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Miami, FL",
+    "canonical_term": "Miami",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "ATL",
+    "canonical_term": "Atlanta",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Atlanta, GA",
+    "canonical_term": "Atlanta",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BOS",
+    "canonical_term": "Boston",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Boston, MA",
+    "canonical_term": "Boston",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Greater Boston",
+    "canonical_term": "Boston",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Francisco Bay",
+    "canonical_term": "San Francisco Bay Area",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "S.F. Bay Area",
+    "canonical_term": "San Francisco Bay Area",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "NorCal Bay Area",
+    "canonical_term": "San Francisco Bay Area",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SF",
+    "canonical_term": "San Francisco",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "S.F.",
+    "canonical_term": "San Francisco",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Francisco, CA",
+    "canonical_term": "San Francisco",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Frisco",
+    "canonical_term": "San Francisco",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SEA",
+    "canonical_term": "Seattle",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Seattle, WA",
+    "canonical_term": "Seattle",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PHX",
+    "canonical_term": "Phoenix",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Phoenix, AZ",
+    "canonical_term": "Phoenix",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "DET",
+    "canonical_term": "Detroit",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Detroit, MI",
+    "canonical_term": "Detroit",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Motor City",
+    "canonical_term": "Detroit",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "MSP",
+    "canonical_term": "Minneapolis–St. Paul",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Minneapolis Saint Paul",
+    "canonical_term": "Minneapolis–St. Paul",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Minneapolis–Saint Paul",
+    "canonical_term": "Minneapolis–St. Paul",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "DEN",
+    "canonical_term": "Denver",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Denver, CO",
+    "canonical_term": "Denver",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SD",
+    "canonical_term": "San Diego",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Diego, CA",
+    "canonical_term": "San Diego",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PDX",
+    "canonical_term": "Portland",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Portland, OR",
+    "canonical_term": "Portland",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Vegas",
+    "canonical_term": "Las Vegas",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "LAS",
+    "canonical_term": "Las Vegas",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Las Vegas, NV",
+    "canonical_term": "Las Vegas",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Sin City",
+    "canonical_term": "Las Vegas",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "NOLA",
+    "canonical_term": "New Orleans",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "New Orleans, LA",
+    "canonical_term": "New Orleans",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Salt Lake, UT",
+    "canonical_term": "Salt Lake City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Salt Lake City, UT",
+    "canonical_term": "Salt Lake City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "KC",
+    "canonical_term": "Kansas City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "KCMO",
+    "canonical_term": "Kansas City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Kansas City, MO",
+    "canonical_term": "Kansas City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Kansas City, KS",
+    "canonical_term": "Kansas City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "STL",
+    "canonical_term": "St. Louis",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Saint Louis",
+    "canonical_term": "St. Louis",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "St Louis",
+    "canonical_term": "St. Louis",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "St. Louis, MO",
+    "canonical_term": "St. Louis",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "CLE",
+    "canonical_term": "Cleveland",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Cleveland, OH",
+    "canonical_term": "Cleveland",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "CIN",
+    "canonical_term": "Cincinnati",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Cincinnati, OH",
+    "canonical_term": "Cincinnati",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "CMH",
+    "canonical_term": "Columbus",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Columbus, OH",
+    "canonical_term": "Columbus",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PIT",
+    "canonical_term": "Pittsburgh",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Pittsburgh, PA",
+    "canonical_term": "Pittsburgh",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BWI",
+    "canonical_term": "Baltimore",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Baltimore, MD",
+    "canonical_term": "Baltimore",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "CLT",
+    "canonical_term": "Charlotte",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Charlotte, NC",
+    "canonical_term": "Charlotte",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "RDU",
+    "canonical_term": "Raleigh–Durham",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Raleigh Durham",
+    "canonical_term": "Raleigh–Durham",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Research Triangle",
+    "canonical_term": "Raleigh–Durham",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Triangle",
+    "canonical_term": "Raleigh–Durham",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BNA",
+    "canonical_term": "Nashville",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Nashville, TN",
+    "canonical_term": "Nashville",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Music City",
+    "canonical_term": "Nashville",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "AUS",
+    "canonical_term": "Austin",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Austin, TX",
+    "canonical_term": "Austin",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SAT",
+    "canonical_term": "San Antonio",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Antonio, TX",
+    "canonical_term": "San Antonio",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "MCO",
+    "canonical_term": "Orlando",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Orlando, FL",
+    "canonical_term": "Orlando",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Tampa",
+    "canonical_term": "Tampa Bay",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "TPA",
+    "canonical_term": "Tampa Bay",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Tampa Bay Area",
+    "canonical_term": "Tampa Bay",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Tampa, FL",
+    "canonical_term": "Tampa Bay",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "JAX",
+    "canonical_term": "Jacksonville",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Jacksonville, FL",
+    "canonical_term": "Jacksonville",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Sac",
+    "canonical_term": "Sacramento",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SMF",
+    "canonical_term": "Sacramento",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Sacramento, CA",
+    "canonical_term": "Sacramento",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "MKE",
+    "canonical_term": "Milwaukee",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Milwaukee, WI",
+    "canonical_term": "Milwaukee",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "IND",
+    "canonical_term": "Indianapolis",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Indy",
+    "canonical_term": "Indianapolis",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Indianapolis, IN",
+    "canonical_term": "Indianapolis",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SDF",
+    "canonical_term": "Louisville",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Louisville, KY",
+    "canonical_term": "Louisville",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "MEM",
+    "canonical_term": "Memphis",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Memphis, TN",
+    "canonical_term": "Memphis",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "OKC",
+    "canonical_term": "Oklahoma City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Oklahoma City, OK",
+    "canonical_term": "Oklahoma City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "RIC",
+    "canonical_term": "Richmond",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Richmond, VA",
+    "canonical_term": "Richmond",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PVD",
+    "canonical_term": "Providence",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Providence, RI",
+    "canonical_term": "Providence",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BDL",
+    "canonical_term": "Hartford",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Hartford, CT",
+    "canonical_term": "Hartford",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Greater Hartford",
+    "canonical_term": "Hartford",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BUF",
+    "canonical_term": "Buffalo",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Buffalo, NY",
+    "canonical_term": "Buffalo",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "ROC",
+    "canonical_term": "Rochester",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Rochester, NY",
+    "canonical_term": "Rochester",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "ALB",
+    "canonical_term": "Albany",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Albany, NY",
+    "canonical_term": "Albany",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Capital Region",
+    "canonical_term": "Albany",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "SJC",
+    "canonical_term": "San Jose",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Jose, CA",
+    "canonical_term": "San Jose",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "OAK",
+    "canonical_term": "Oakland",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Oakland, CA",
+    "canonical_term": "Oakland",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "East Bay",
+    "canonical_term": "Oakland",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "FAT",
+    "canonical_term": "Fresno",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Fresno, CA",
+    "canonical_term": "Fresno",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "HNL",
+    "canonical_term": "Honolulu",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Honolulu, HI",
+    "canonical_term": "Honolulu",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "ANC",
+    "canonical_term": "Anchorage",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Anchorage, AK",
+    "canonical_term": "Anchorage",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BOI",
+    "canonical_term": "Boise",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Boise, ID",
+    "canonical_term": "Boise",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "BHM",
+    "canonical_term": "Birmingham",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Birmingham, AL",
+    "canonical_term": "Birmingham",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "EWR",
+    "canonical_term": "Newark",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Newark, NJ",
+    "canonical_term": "Newark",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Jersey City, NJ",
+    "canonical_term": "Jersey City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "JC, NJ",
+    "canonical_term": "Jersey City",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "LI",
+    "canonical_term": "Long Island",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Long Island, NY",
+    "canonical_term": "Long Island",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "PBI",
+    "canonical_term": "West Palm Beach",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "West Palm, FL",
+    "canonical_term": "West Palm Beach",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "West Palm Beach, FL",
+    "canonical_term": "West Palm Beach",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "FLL",
+    "canonical_term": "Fort Lauderdale",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Ft. Lauderdale",
+    "canonical_term": "Fort Lauderdale",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Fort Lauderdale, FL",
+    "canonical_term": "Fort Lauderdale",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Inland Empire",
+    "canonical_term": "San Bernardino–Riverside",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Riverside–San Bernardino",
+    "canonical_term": "San Bernardino–Riverside",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Riverside, CA",
+    "canonical_term": "San Bernardino–Riverside",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "San Bernardino, CA",
+    "canonical_term": "San Bernardino–Riverside",
+    "group_hint": "GEO",
+    "category": "City/Market"
+  },
+  {
+    "raw_term": "Grocer",
+    "canonical_term": "Grocery Store",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Super market",
+    "canonical_term": "Grocery Store",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Food store",
+    "canonical_term": "Grocery Store",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "C-store",
+    "canonical_term": "Convenience Store",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "C store",
+    "canonical_term": "Convenience Store",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Convenience shop",
+    "canonical_term": "Convenience Store",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Corner store",
+    "canonical_term": "Convenience Store",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Farmer's market",
+    "canonical_term": "Farmers Market",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Farmers' market",
+    "canonical_term": "Farmers Market",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Farm market",
+    "canonical_term": "Farmers Market",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Eatery",
+    "canonical_term": "Restaurant",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Dining establishment",
+    "canonical_term": "Restaurant",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Restaurant (FOH)",
+    "canonical_term": "Restaurant",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Front of house",
+    "canonical_term": "Restaurant",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Back of house",
+    "canonical_term": "Kitchen",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "BOH",
+    "canonical_term": "Kitchen",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Commercial kitchen",
+    "canonical_term": "Kitchen",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Restaurant kitchen",
+    "canonical_term": "Kitchen",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "QSR",
+    "canonical_term": "Quick Service Restaurant",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Fast food",
+    "canonical_term": "Quick Service Restaurant",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Quick-service restaurant",
+    "canonical_term": "Quick Service Restaurant",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Fast-casual",
+    "canonical_term": "Fast Casual",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Fast casual restaurant",
+    "canonical_term": "Fast Casual",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Foodtruck",
+    "canonical_term": "Food Truck",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Mobile kitchen",
+    "canonical_term": "Food Truck",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Food trailer",
+    "canonical_term": "Food Truck",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Take-out",
+    "canonical_term": "Takeout / Delivery",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Takeout",
+    "canonical_term": "Takeout / Delivery",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Delivery",
+    "canonical_term": "Takeout / Delivery",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Food delivery",
+    "canonical_term": "Takeout / Delivery",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "To-go",
+    "canonical_term": "Takeout / Delivery",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Fresh produce",
+    "canonical_term": "Produce",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Fruits and vegetables",
+    "canonical_term": "Produce",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Produce section",
+    "canonical_term": "Produce",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Salad greens",
+    "canonical_term": "Leafy Greens",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Leaf greens",
+    "canonical_term": "Leafy Greens",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Greens (leafy)",
+    "canonical_term": "Leafy Greens",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Roots",
+    "canonical_term": "Root Vegetables",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Root veg",
+    "canonical_term": "Root Vegetables",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Root veggies",
+    "canonical_term": "Root Vegetables",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Citrus fruit",
+    "canonical_term": "Citrus",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Citrus fruits",
+    "canonical_term": "Citrus",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Berry",
+    "canonical_term": "Berries",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Berries (assorted)",
+    "canonical_term": "Berries",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Stone fruits",
+    "canonical_term": "Stone Fruit",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Drupes",
+    "canonical_term": "Stone Fruit",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Brassicas",
+    "canonical_term": "Cruciferous Vegetables",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Cruciferous veg",
+    "canonical_term": "Cruciferous Vegetables",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Cruciferous veggies",
+    "canonical_term": "Cruciferous Vegetables",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Baked goods",
+    "canonical_term": "Bakery",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Bakeshop",
+    "canonical_term": "Bakery",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Loaf",
+    "canonical_term": "Bread",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Bread loaf",
+    "canonical_term": "Bread",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Artisan bread",
+    "canonical_term": "Bread",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Pastries",
+    "canonical_term": "Pastry",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Baked pastry",
+    "canonical_term": "Pastry",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Cafe coffee",
+    "canonical_term": "Coffee",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Coffee cup",
+    "canonical_term": "Coffee",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Iced tea",
+    "canonical_term": "Tea",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Hot tea",
+    "canonical_term": "Tea",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Soda",
+    "canonical_term": "Soft Drink",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Pop",
+    "canonical_term": "Soft Drink",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Soft drink",
+    "canonical_term": "Soft Drink",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Seltzer",
+    "canonical_term": "Sparkling Water",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Carbonated water",
+    "canonical_term": "Sparkling Water",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Club soda",
+    "canonical_term": "Sparkling Water",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Craft beer",
+    "canonical_term": "Beer",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Beer pint",
+    "canonical_term": "Beer",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Red wine",
+    "canonical_term": "Wine",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "White wine",
+    "canonical_term": "Wine",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Wine glass",
+    "canonical_term": "Wine",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Liquor",
+    "canonical_term": "Spirits",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Hard liquor",
+    "canonical_term": "Spirits",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Distilled spirits",
+    "canonical_term": "Spirits",
+    "group_hint": "FOOD",
+    "category": "Retail/Service"
+  },
+  {
+    "raw_term": "Controlroom",
+    "canonical_term": "Control Room",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "MCR",
+    "canonical_term": "Control Room",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Production control room",
+    "canonical_term": "Control Room",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "News room",
+    "canonical_term": "Newsroom",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Editorial desk",
+    "canonical_term": "Newsroom",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Assignment desk",
+    "canonical_term": "Newsroom",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Edit suite",
+    "canonical_term": "Editing Suite",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Edit bay",
+    "canonical_term": "Editing Suite",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Editing room",
+    "canonical_term": "Editing Suite",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Post-production suite",
+    "canonical_term": "Editing Suite",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Post production",
+    "canonical_term": "Editing Suite",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "TV studio",
+    "canonical_term": "Studio",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Broadcast studio",
+    "canonical_term": "Studio",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Production studio",
+    "canonical_term": "Studio",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Soundstage",
+    "canonical_term": "Studio",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Set",
+    "canonical_term": "Studio",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "On location reporting",
+    "canonical_term": "Field Reporting",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Remote reporting",
+    "canonical_term": "Field Reporting",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Live shot",
+    "canonical_term": "Field Reporting",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Standup",
+    "canonical_term": "Field Reporting",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Sit-down interview",
+    "canonical_term": "Interview",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "One-on-one",
+    "canonical_term": "Interview",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "1:1 interview",
+    "canonical_term": "Interview",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Presser",
+    "canonical_term": "Press Conference",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Backstage",
+    "canonical_term": "Behind-the-scenes",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Two-box",
+    "canonical_term": "Split-screen",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "2-box",
+    "canonical_term": "Split-screen",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Two-up",
+    "canonical_term": "Split-screen",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Cutaway footage",
+    "canonical_term": "B-roll",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Lower-third",
+    "canonical_term": "Lower Third",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Chyron",
+    "canonical_term": "Lower Third",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "CG lower third",
+    "canonical_term": "Lower Third",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Prompter",
+    "canonical_term": "Teleprompter",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Greenscreen",
+    "canonical_term": "Green Screen",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Chroma key",
+    "canonical_term": "Green Screen",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Chromakey",
+    "canonical_term": "Green Screen",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Live broadcast",
+    "canonical_term": "Live",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Live stream",
+    "canonical_term": "Live",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Live-stream",
+    "canonical_term": "Live",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "In-studio live",
+    "canonical_term": "Live",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Free ad-supported streaming TV",
+    "canonical_term": "FAST",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Free ad supported streaming TV",
+    "canonical_term": "FAST",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Subscription VOD",
+    "canonical_term": "SVOD",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Subscription video on demand",
+    "canonical_term": "SVOD",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Ad-supported VOD",
+    "canonical_term": "AVOD",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Ad supported video on demand",
+    "canonical_term": "AVOD",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Pod",
+    "canonical_term": "Podcast",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Audio show",
+    "canonical_term": "Podcast",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Mic",
+    "canonical_term": "Microphone",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Mics",
+    "canonical_term": "Microphone",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Studio mic",
+    "canonical_term": "Microphone",
+    "group_hint": "MEDIA",
+    "category": "Production/Formats"
+  },
+  {
+    "raw_term": "Deck",
+    "canonical_term": "Presentation Deck",
+    "group_hint": "DOC",
+    "category": "Deliverable Type"
+  },
+  {
+    "raw_term": "One-pager",
+    "canonical_term": "One Pager",
+    "group_hint": "DOC",
+    "category": "Deliverable Type"
+  },
+  {
+    "raw_term": "Exec Summary",
+    "canonical_term": "Executive Summary",
+    "group_hint": "DOC",
+    "category": "Deliverable Type"
+  },
+  {
+    "raw_term": "Spec",
+    "canonical_term": "Technical Spec",
+    "group_hint": "DOC",
+    "category": "Deliverable Type"
+  },
+  {
+    "raw_term": "Readout",
+    "canonical_term": "Report",
+    "group_hint": "DOC",
+    "category": "Deliverable Type"
+  },
+  {
+    "raw_term": "SOW",
+    "canonical_term": "Statement of Work",
+    "group_hint": "DOC",
+    "category": "Agreement Type"
+  },
+  {
+    "raw_term": "MSA",
+    "canonical_term": "Master Services Agreement",
+    "group_hint": "DOC",
+    "category": "Agreement Type"
+  },
+  {
+    "raw_term": "NDA",
+    "canonical_term": "Non-Disclosure Agreement",
+    "group_hint": "DOC",
+    "category": "Agreement Type"
+  },
+  {
+    "raw_term": "PRD",
+    "canonical_term": "Product Requirements Document",
+    "group_hint": "DOC",
+    "category": "Product Artifact"
+  },
+  {
+    "raw_term": "Journey map",
+    "canonical_term": "Customer Journey Map",
+    "group_hint": "DOC",
+    "category": "Product Artifact"
+  },
+  {
+    "raw_term": "Wireframe",
+    "canonical_term": "Wireframes",
+    "group_hint": "DOC",
+    "category": "Product Artifact"
+  },
+  {
+    "raw_term": "PRD",
+    "canonical_term": "Requirements / PRD",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Product requirements doc",
+    "canonical_term": "Requirements / PRD",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Product requirements",
+    "canonical_term": "Requirements / PRD",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Requirements doc",
+    "canonical_term": "Requirements / PRD",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "SOW",
+    "canonical_term": "Statement of Work",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Statement of work",
+    "canonical_term": "Statement of Work",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Scope of work",
+    "canonical_term": "Statement of Work",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "MSA",
+    "canonical_term": "Master Services Agreement",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Master services agreement",
+    "canonical_term": "Master Services Agreement",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "NDA",
+    "canonical_term": "Non-Disclosure Agreement",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Non disclosure agreement",
+    "canonical_term": "Non-Disclosure Agreement",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Confidentiality agreement",
+    "canonical_term": "Non-Disclosure Agreement",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "SOP",
+    "canonical_term": "Standard Operating Procedure",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Standard operating procedure",
+    "canonical_term": "Standard Operating Procedure",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "RFP",
+    "canonical_term": "Request for Proposal",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Request for proposal",
+    "canonical_term": "Request for Proposal",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "RFI",
+    "canonical_term": "Request for Information",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Request for information",
+    "canonical_term": "Request for Information",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "SLA",
+    "canonical_term": "Service Level Agreement",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Service level agreement",
+    "canonical_term": "Service Level Agreement",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Post mortem",
+    "canonical_term": "Postmortem",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Incident review",
+    "canonical_term": "Postmortem",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "RCA",
+    "canonical_term": "Postmortem",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Root cause analysis",
+    "canonical_term": "Postmortem",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Run book",
+    "canonical_term": "Runbook",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Playbook",
+    "canonical_term": "Runbook",
+    "group_hint": "DOC",
+    "category": "File Type"
+  },
+  {
+    "raw_term": "Statement-of-Work",
+    "canonical_term": "Statement of Work",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Master service agreement",
+    "canonical_term": "Master Services Agreement",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Non-disclosure agreement",
+    "canonical_term": "Non-Disclosure Agreement",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Service-level agreement",
+    "canonical_term": "Service Level Agreement",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Standard ops procedure",
+    "canonical_term": "Standard Operating Procedure",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Request-for-proposal",
+    "canonical_term": "Request for Proposal",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "Request-for-information",
+    "canonical_term": "Request for Information",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "KPI",
+    "canonical_term": "Key Performance Indicator",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "KPIs",
+    "canonical_term": "Key Performance Indicator",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "ROI",
+    "canonical_term": "Return on Investment",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "FAQ",
+    "canonical_term": "Frequently Asked Questions",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  },
+  {
+    "raw_term": "FAQs",
+    "canonical_term": "Frequently Asked Questions",
+    "group_hint": "DOC",
+    "category": "Acronyms"
+  }
+]

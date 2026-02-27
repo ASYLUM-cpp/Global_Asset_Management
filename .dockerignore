@@ -1,0 +1,44 @@
+# Dependencies
+/node_modules
+/vendor
+
+# Build artifacts
+/public/build
+/public/hot
+/public/storage
+
+# Environment
+.env
+.env.backup
+
+# IDE & OS
+.idea
+.vscode
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Docker (don't copy Docker config into the image recursively)
+docker-compose.yml
+docker-compose.override.yml
+
+# Documentation
+README.md
+BACKEND_INTEGRATION_PLAN.txt
+*.md
+
+# Tests
+/tests
+phpunit.xml
+
+# Storage data (mounted as volumes)
+/storage/app/staging/*
+/storage/app/assets/*
+/storage/app/public/previews/*
+/storage/logs/*
