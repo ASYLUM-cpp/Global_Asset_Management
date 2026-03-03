@@ -15,6 +15,18 @@ if [ "$DB_CONNECTION" = "mysql" ]; then
     echo "MySQL is ready."
 fi
 
+# -- Install Composer dependencies if vendor/ is missing (bind-mount override) -
+if [ ! -f /var/www/html/vendor/autoload.php ]; then
+    echo "vendor/ not found (bind-mount override). Running composer install..."
+    composer install --no-dev --optimize-autoloader --no-interaction
+fi
+
+# -- Generate APP_KEY if placeholder is still present ---------------------
+if grep -q 'GENERATE_ME_WITH' /var/www/html/.env 2>/dev/null; then
+    echo "Generating APP_KEY..."
+    php artisan key:generate --force
+fi
+
 # â”€â”€ Storage symlink â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 php artisan storage:link --force 2>/dev/null || true
 

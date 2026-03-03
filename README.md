@@ -48,23 +48,18 @@ docker compose up -d
 
 This starts 10 containers: app, horizon (queue worker), mysql, redis, meilisearch, bookstack, trilium, ckan, ckan-db, ckan-solr, soketi.
 
-### 3. Install Dependencies & Setup
+### 3. First-Time Setup
+
+The entrypoint automatically handles: composer install, APP_KEY generation, storage link, and migrations.
+After the first boot, seed the database with roles, users, and taxonomy:
 
 ```bash
-# Install PHP dependencies
-docker exec gam-app composer install --no-dev --optimize-autoloader
+# Seed database (creates admin user, roles, taxonomy rules)
+docker exec gam-app php artisan db:seed
 
-# Generate app key (first time only)
-docker exec gam-app php artisan key:generate
-
-# Run migrations & seed
-docker exec gam-app php artisan migrate --seed
-
-# Cache configuration
-docker exec gam-app php artisan optimize
-
-# Link storage
-docker exec gam-app php artisan storage:link
+# Build frontend assets (requires Node.js on host)
+npm install
+npm run build
 ```
 
 ### 4. Access
@@ -78,12 +73,14 @@ docker exec gam-app php artisan storage:link
 | **Meilisearch** | http://localhost:7700 |
 | **Horizon (Queues)** | http://localhost:8000/horizon |
 
-### Default Login
+### Default Login (seeded users)
 
-```
-Email:    admin@gam.test
-Password: password
-```
+| Role | Email | Password |
+|---|---|---|
+| **Admin** | ali@company.com | password |
+| Food Team | sara@company.com | password |
+| Media Team | james@company.com | password |
+| Marketing Team | maria@company.com | password |
 
 ---
 
