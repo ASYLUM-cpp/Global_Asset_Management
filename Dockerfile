@@ -115,6 +115,9 @@ COPY . .
 # ── Copy built frontend assets from stage 2 ─────────────────────────────────
 COPY --from=node-build /app/public/build ./public/build
 
+# ── Stash build assets for bind-mount recovery (entrypoint restores them) ────
+RUN cp -R ./public/build /tmp/gam-build-assets
+
 # ── Run Composer autoload dump + optimisations ───────────────────────────────
 RUN touch .env \
     && curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer \

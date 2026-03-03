@@ -21,6 +21,13 @@ if [ ! -f /var/www/html/vendor/autoload.php ]; then
     composer install --no-dev --optimize-autoloader --no-interaction
 fi
 
+# -- Restore frontend build assets if missing (bind-mount override) ------------
+if [ ! -f /var/www/html/public/build/manifest.json ] && [ -d /tmp/gam-build-assets ]; then
+    echo "public/build/ not found. Restoring from Docker image..."
+    mkdir -p /var/www/html/public/build
+    cp -R /tmp/gam-build-assets/* /var/www/html/public/build/
+fi
+
 # -- Generate APP_KEY if placeholder is still present ---------------------
 if grep -q 'GENERATE_ME_WITH' /var/www/html/.env 2>/dev/null; then
     echo "Generating APP_KEY..."
@@ -33,6 +40,13 @@ php artisan storage:link --force 2>/dev/null || true
 # â”€â”€ Run migrations â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 echo "Running migrations..."
 php artisan migrate --force
+
+# -- Auto-seed if roles table is empty (first boot) ---------------------------
+ROLE_COUNT=$(php -r "try { echo (new PDO('mysql:host=' . getenv('DB_HOST') . ';dbname=' . getenv('DB_DATABASE'), getenv('DB_USERNAME'), getenv('DB_PASSWORD')))->query('SELECT COUNT(*) FROM roles')->fetchColumn(); } catch(Exception \$e) { echo '0'; }" 2>/dev/null)
+if [ "$ROLE_COUNT" = "0" ]; then
+    echo "First boot detected (no roles). Running db:seed..."
+    php artisan db:seed --force
+fi
 
 # â”€â”€ Cache configuration for production â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 if [ "$APP_ENV" = "production" ]; then

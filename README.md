@@ -48,19 +48,19 @@ docker compose up -d
 
 This starts 10 containers: app, horizon (queue worker), mysql, redis, meilisearch, bookstack, trilium, ckan, ckan-db, ckan-solr, soketi.
 
-### 3. First-Time Setup
+### 3. That's It!
 
-The entrypoint automatically handles: composer install, APP_KEY generation, storage link, and migrations.
-After the first boot, seed the database with roles, users, and taxonomy:
+The entrypoint automatically handles everything on first boot:
+- Installs Composer dependencies (`vendor/`)
+- Restores compiled frontend assets (`public/build/`)
+- Generates `APP_KEY`
+- Creates storage symlink
+- Runs all database migrations
+- Seeds users, roles, permissions, and taxonomy rules (first boot only)
+- Caches config/routes/views (production mode)
+- Creates BookStack database
 
-```bash
-# Seed database (creates admin user, roles, taxonomy rules)
-docker exec gam-app php artisan db:seed
-
-# Build frontend assets (requires Node.js on host)
-npm install
-npm run build
-```
+No manual steps needed. Wait ~60 seconds for the first boot to complete.
 
 ### 4. Access
 
